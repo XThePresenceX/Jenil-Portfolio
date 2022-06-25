@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="color: #f78966">Land Of Boxes Order Form</h1>
+      <form action="action_page.php">
+        <div class="row">
+          <div class="col-25r">
+            <label for="fname">Name:</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Walaa Brady"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25r">
+            <label for="lname">Email:</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="w.brady@widget-sales.com"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="special" style="text-align: right">
+            <label for="subject">Address:</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="162 Main Road Rondebosh Cape Town"
+              style="height: 100px"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25r">
+            <label for="country">Postcode:</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="pcode"
+              name="postcode"
+              placeholder="7700"
+              style="width: 20%"
+            />
+          </div>
+        </div>
+        <!-- <div class="row">
+          <input type="submit" value="Submit" />
+        </div> -->
+      </form>
+    </div>
+    <br />
+    <div class="tableX" style="overflow-x: auto">
+      <table style="width: 100%">
+        <tr>
+          <th>Product</th>
+          <th>Part Number</th>
+          <th style="max-width: 50px; word-wrap: break-word">Quantity</th>
+          <th>Unit Price</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>EconoBox</td>
+          <td>LB100</td>
+          <td
+            class="border-right"
+            style="max-width: 50px; word-wrap: break-word"
+          >
+            <input
+              type="text"
+              id="numerics"
+              name="numerics"
+              placeholder=""
+              style="width: 98%"
+              ;
+            />
+          </td>
+          <td>R5</td>
+          <td
+            class="border-right"
+            style="max-width: 50px; word-wrap: break-word"
+          >
+            <input
+              type="text"
+              id="numerics"
+              name="numerics"
+              placeholder=""
+              style="width: 98%"
+              ;
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Standard Box</td>
+          <td>LB200</td>
+          <td
+            class="border-right"
+            style="max-width: 50px; word-wrap: break-word"
+          >
+            <input
+              type="text"
+              id="numerics"
+              name="numerics"
+              placeholder=""
+              style="width: 98%"
+              ;
+            />
+          </td>
+          <td>R10</td>
+          <td
+            class="border-right"
+            style="max-width: 50px; word-wrap: break-word"
+          >
+            <input
+              type="text"
+              id="numerics"
+              name="numerics"
+              placeholder=""
+              style="width: 98%"
+              ;
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Premium Box</td>
+          <td>LB300</td>
+          <td
+            class="border-right"
+            style="max-width: 50px; word-wrap: break-word"
+          >
+            <input
+              type="text"
+              id="numerics"
+              name="numerics"
+              placeholder=""
+              style="width: 98%"
+              ;
+            />
+          </td>
+          <td>R15</td>
+          <td class="border-right">
+            <input
+              type="text"
+              id="numerics"
+              name="numerics"
+              placeholder=""
+              style="width: 98%"
+              ;
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Deluxe Box</td>
+          <td>LB400</td>
+          <td class="border-right">
+            <input
+              type="text"
+              id="numerics"
+              name="numerics"
+              placeholder=""
+              style="width: 98%"
+              ;
+            />
+          </td>
+          <td>R20</td>
+          <td class="border-right">
+            <input
+              type="text"
+              id="numerics"
+              name="numerics"
+              placeholder=""
+              style="width: 98%"
+              ;
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Super Deluxe Box</td>
+          <td>LB500</td>
+          <td class="border-right">
+            <input
+              type="text"
+              id="numerics"
+              name="numerics"
+              placeholder=""
+              style="width: 98%"
+              ;
+            />
+          </td>
+          <td>R30</td>
+          <td class="border-right">
+            <input
+              type="text"
+              id="numerics"
+              name="numerics"
+              placeholder=""
+              style="width: 98%"
+              ;
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4" style="text-align: right">Total:</td>
+          <td>R100</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <br />
+
+    <div class="container">
+      <h3>Credit Card Details</h3>
+      <form>
+        <p>&nbspCard Type:</p>
+        <div class="radios">
+          <div class="rad-1">
+            <input type="radio" id="huey" name="drone" value="huey" checked />
+          </div>
+          <div class="rad-2">
+            <label for="huey">Mastercard</label>
+          </div>
+          <span class="nextone">
+            <label for="cnum">Card Number:</label>
+            <input
+              type="text"
+              id="cnum"
+              name="cardnumber"
+              placeholder="45645"
+            />
+          </span>
+
+          <br />
+          <div class="rad-1">
+            <input type="radio" id="dewey" name="drone" value="dewey" />
+          </div>
+          <div class="rad-2">
+            <label for="dewey"
+              >Visa&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label
+            >
+          </div>
+          <span class="nextone">
+            <label for="expdate">Expiry Date:&nbsp&nbsp</label>
+            <input type="text" id="edate" name="expdate" placeholder="03/99" />
+          </span>
+          <br />
+          <div class="rad-1">
+            <input type="radio" id="louie" name="drone" value="louie" />
+          </div>
+          <div class="rad-2">
+            <label for="louie">American Express</label>
+          </div>
+          <br />
+          <div class="rad-1">
+            <input type="radio" id="dc" name="dc" value="dc" />
+          </div>
+          <div class="rad-2">
+            <label for="dc">Diners Club</label>
+          </div>
+          <br />
+        </div>
+        <br />
+        <div class="row">
+          <div class="specialX">
+            <label for="subject"><strong>Delivery Address:</strong></label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="162 Main Road Rondebosh Cape Town"
+              style="height: 100px"
+            ></textarea>
+          </div>
+        </div>
+      </form>
+    </div>
+    <br />
+    <br />
+    <div class="butt">
+      <button type="button" onclick="alert('Order Sent!')">Send order</button>
+      <button type="button" onclick="alert('Unable to Clear')">
+        Clear form
+      </button>
+    </div>
+    <br />
+  </body>
+</html>

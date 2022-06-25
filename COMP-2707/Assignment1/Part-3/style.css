@@ -1,0 +1,35 @@
+* {
+  text-align: center;
+  background-color: #d5f4e6;
+}
+
+.ifc {
+  position: relative;
+  padding-bottom: 56.25%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ifc iframe {
+  position: absolute;
+  top: 0;
+  left: 50;
+  width: 70%;
+  height: 70%;
+  min-width: 300px;
+}
+body h1 {
+  font-family: "Felipa", "Staatliches", "cursive";
+  word-spacing: 10px;
+  letter-spacing: 1px;
+  font-size: 80px;
+  text-align: center;
+  color: #000000;
+}
+
+body p {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  padding: 15px 20px;
+}
