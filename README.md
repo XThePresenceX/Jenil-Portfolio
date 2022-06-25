@@ -1,3 +1,3 @@
 # Jenil-Portfolio
 My Portfolio Website
-http://bhindi.myweb.cs.uwindsor.ca/
+https://jenil-bhindi.herokuapp.com/
